@@ -1,8 +1,5 @@
 /* MAIN */
-html{
-    overflow-x:hidden;
-}
-body {
+body, html{
     background-color: #000000;
     overflow-x: hidden;
     max-width: 100% !important;
