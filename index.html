@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mateusz Rak">
+  <meta name="keywords" content="TAG1, TAG2, TAG3">
+  <meta name="description" content="OPIS STRONY">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontello.css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="anim-showSlow">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark navbar-expand-md bg-black py-1">
+    <div class="container-fluid align-items-start">
+
+      <div class="d-flex align-items-end position-relative">
+        <a class="navbar-brand pt-0 me-1 fs-4 text-white" href="#">RSITES</a>
+        <span class="cube bg-main"></span>
+      </div>
+
+      <button class="navbar-toggler minus collpased" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-blog" aria-controls="offcanvas-blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oferta</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projekty
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark bg-black">
+              <li><a class="dropdown-item px-0 px-md-3" href="#">Strony Internetowe</a></li>
+              <li><a class="dropdown-item px-0 px-md-3" href="#">Szablony email</a></li>
+              <li><a class="dropdown-item px-0 px-md-3" href="#">Reklamy GoogleADS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-form-container">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- HEADER ABOUT US 1/3 -->
+  <header class="container-fluid overflow-hidden img-box img-box-scroll" style="background-image: url(images/header.jpg); background-position: 0 30%;">
+
+
+    <div class="row py-5 bg-black-transparent insetShadow">
+
+      <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-7 ps-4 py-5 mb-5">
+
+        <h1 class="w-100">
+          <div class="text-white display-3 fw-bolder">Chcesz się wyróżnić w <span class="text-main">internecie ?</span> </div>
+
+          <p class="fs-5 mt-3 mt-md-0 text-secondary fw-light-bold"> 
+            Trafiłeś w idealne miejsce! Zajmuje się designem i tworzeniem stron internetowych oraz stopek do wiadomości
+            email od A do Z
+          </p>
+        </h1> 
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- ABOUT US 2/3 -->
+  <article class="container-fluid mt-0 mt-md-5 py-5 pt-0 pt-md-5 overflow-hidden bg-black-gradient-2 " >
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-sm-12 col-md-4 col-lg-5 px-0 px-md-3 position-relative">
+        <img src="images/image1_0 (1).jpg" alt="" class="img-fluid rotated-img-0">
+      </div>
+
+      <article class="col-12 col-md-8 col-lg-7 px-4 pt-4 mt-3 mt-md-0">
+        <h2 class="text-white display-3 fw-bolder"><span class="text-main">Gwarantuje</span> unikalny design swoich produktów</h2>
+        <p class="text-secondary fw-light-bold fs-5">
+          Twoja strona lub stopka zostanie zaprojektowana od podstaw a całość stworzę według twoich wskazówek i przesłanych 
+          inspiracji gwarantuje że nie otrzymasz produktu z tzw gotowego szablonu.
+        </p>
+      </article>
+
+    </div>
+  </article>
+
+  <!-- LAST WORK -->
+  <section class="container-fluid mt-5 py-5 position-relative">
+
+    <div class="absolut-block insetShadow bg-gradient bg-light z-0" style="transform: rotate(2deg);"></div>
+
+    <div class="row position-relative z-1 py-4 px-3">
+      <!-- CONTENT -->
+      <div class="col-md-7 pe-4">
+        <h3 class="text-black display-3 fw-bolder"><span class="text-main">Zobacz</span> ostatnie realizacje  moich stron i innych projektów</h3>
+        <p class="text-secondary fs-5 mt-4 fw-light-bold">
+          Przeglądaj moje prace za pomocą strzałek po bokach miniaturki. Kliknij w miniaturkę aby wyświetlić szczegóły każdego z projektów 
+          i uzyskać dostęp do podglądu projektu lub linka do strony
+        </p>
+        <div class="d-flex w-75 mt-3">
+          <div class="flex-fill rounded py-4 me-3" style="background-color: rgb(222, 222, 222);"></div>
+          <div class="flex-fill rounded py-4 me-3" style="background-color: rgb(207, 207, 207);"></div>
+          <div class="flex-fill rounded py-4 me-5" style="background-color: rgb(200, 200, 200);"></div>
+        </div>
+      </div>
+      <!-- PREVIEW CAROUSEL-->
+      <div class="col-md-5 mt-5 mt-md-0">
+        <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="w-100 d-flex justify-content-center">
+                <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="w-100 d-flex justify-content-center">
+                <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="w-100 d-flex justify-content-center">
+                <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
+              </div>
+            </div>
+
+         
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="container-fluid bg-black-gradient-2 py-5 ">
+    <!-- TITLE -->
+    <div class="row px-2">
+      <div class="col-12 col-md-8 col-lg-7">
+        <h4 class="text-white display-3 fw-bolder"><span class="text-main">Opinie</span> naszych klientów mówią same za siebie!</h4>
+      </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="row pb-5 justify-content-around">
+
+        <div class="col-12 col-md-5 mt-5 mt-md-4 ">
+          <div class="testimonial fs-4 text-secondary ">
+            “Kreatywni, zaangażowani i profesjonalni. Świetny i miły kontakt. Gorąco polecam!”
+            <div class="d-flex mt-1 align-items-center">
+              <div class="img-box " style="background-image: url(images/girl-4660954_640.jpg);"></div>
+              <div class="ms-2">
+                <span class="fs-6 ">Agata Jakas</span>
+                <div class="fs-6 text-muted" style="line-height: 80%;">Restauracja GoEat</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 mt-5 mt-md-4">
+          <div class="testimonial fs-4 text-secondary">
+            “Kreatywni, zaangażowani i profesjonalni. Świetny i miły kontakt. Gorąco polecam!”
+            <div class="d-flex mt-1 align-items-center">
+              <div class="img-box" style="background-image: url(images/girl-4660954_640.jpg);"></div>
+              <div class="ms-2">
+                <span class="fs-6">Agata Jakas</span>
+                <div class="fs-6 text-muted" style="line-height: 80%;">Restauracja GoEat</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 mt-5">
+          <div class="testimonial fs-4 text-secondary">
+            “Kreatywni, zaangażowani i profesjonalni. Świetny i miły kontakt. Gorąco polecam!”
+            <div class="d-flex mt-1 align-items-center">
+              <div class="img-box" style="background-image: url(images/girl-4660954_640.jpg);"></div>
+              <div class="ms-2">
+                <span class="fs-6">Agata Jakas</span>
+                <div class="fs-6 text-muted" style="line-height: 80%;">Restauracja GoEat</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 mt-5">
+          <div class="testimonial fs-4 text-secondary">
+            “Kreatywni, zaangażowani i profesjonalni. Świetny i miły kontakt. Gorąco polecam!”
+            <div class="d-flex mt-1 align-items-center">
+              <div class="img-box" style="background-image: url(images/girl-4660954_640.jpg);"></div>
+              <div class="ms-2">
+                <span class="fs-6">Agata Jakas</span>
+                <div class="fs-6 text-muted" style="line-height: 80%;">Restauracja GoEat</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+ <!-- ABOUT US 3/3 -->
+  <section class="container-fluid position-relative z-1 pb-5">
+    <div class="absolut-block insetShadow bg-gradient bg-light z-0" style="transform: rotate(-2deg);"></div>
+    <div class="row position-relative z-1">
+      <div class="col-md-6 col-lg-6"> 
+        <img src="images/web-development-8734249_640.png" alt="" class="ms-auto img-fluid" style="margin-top: -45px;">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <h5 class="text-black display-3 fw-bolder"><span class="text-main">Intuicyjna</span> obsługa moich produktów</h5>
+        <p class="text-secondary fw-light-bold fs-5 mt-4">
+          Swoje strony buduję na popularnych silnikach takich jak wordpress lub prestashop dzięki 
+          temu z łatwością będziesz mógł redagować ich treść.
+        </p>
+      </div>
+    </div>
+      
+  </section>
+
+  <!-- CONTACT -->
+  <section class="container-fluid py-5 position-relative img-box" style="background-image: url(images/image1_0.jpg); margin-top: -20px;" id="contact-form-container">
+    <div class="absolut-block insetShadow z-0 bg-black-transparent"></div>
+    <div class="row position-relative py-5 px-2 px-md-5 z-1">
+      <!-- TITLE -->
+      <div class="col-md-7 col-lg-6 col-xl-5 mb-4 mb-md-0">
+        <div>
+          <h6 class="text-white display-3 fw-bolder">Masz więcej <span class="text-main">pytań ?</span></h6>
+          <p class="text-secondary fw-light-bold fs-5 mt-3">
+            Skontaktuj się ze mną poprzez formularz kontaktowy a odpowiem ci najszybciej jak tylko będe mógł.
+             Jeżeli chcesz abym do ciebie zadzwonił podaj w formularzu swój numer telefonu
+          </p>
+        </div>
+        <div class="mt-4">
+          <span class="text-white display-3 fw-bolder mt-5">Inne formy <span class="text-main">kontaktu</span></span>
+          
+          <a class="icon-phone-squared text-decoration-none d-block text-gray-dark fw-light-bold fs-5 mt-2" href="#">+48 530 097 542</a>
+          <a class="icon-mail text-decoration-none d-block text-gray-dark fw-light-bold fs-5 mt-2" href="#">kontakt@rsides.pl</a>
+          <a class="icon-location text-decoration-none d-block text-gray-dark fw-light-bold fs-5 mt-2" href="#">Staroszkolna 29b/22 59-700 Bolesławiec.</a>
+          
+        </div>
+      </div>
+      <!-- FORM -->
+      <div class="col-md-5 col-lg-6 col-xl-7 p-4">
+        <form action="sendmsg" method="post" class="row" id="contact-form">
+
+          <div class="col-12">
+            <label for="input-contact-name" class="visually-hidden">Imię lub nazwa firmy</label>
+            <input type="text" class="form-control form-control-lg" id="input-contact-name" placeholder="Imię / Nazwa firmy">
+          </div>
+
+          <div class="col-12 mt-4">
+            <label for="input-contact-name" class="visually-hidden">Twój adres email</label>
+            <input type="mail" class="form-control form-control-lg" id="input-contact-name" placeholder="Twój adres email">
+          </div>
+
+          <div class="col-12 mt-4">
+            <label for="input-contact-name" class="visually-hidden">( Opcjonalnie ) Twój numer telefonu</label>
+            <input type="number" class="form-control form-control-lg" id="input-contact-name" placeholder="Twój numer telefonu (opcjonalnie)">
+          </div>
+        
+
+          <div class="col-12 mt-4">
+            <label for="exampleFormControlTextarea1" class="visually-hidden">Example textarea</label>
+            <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="7" placeholder="Wiadomość"></textarea>
+          </div>
+
+          <div class="col-12 mt-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                <div class="text-light">Akceptuje Regulamin</div>
+                <div class="text-muted">Klikjąc przycisk wyślij potwierdzam że zapoznałem się z <a href="#" class="text-main">regulaminem prywatności</a></div>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button class="ms-auto mt-3 d-block px-4 btn btn-lg bg-main text-light" type="submit">Wyślij</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid bg-black bg-black-gradient-2 pt-5 px-3">
+    <div class="row flex-wrap-reverse">
+
+      <div class="col-md-5 mt-5 mt-md-0">
+        <div class="row">
+          <div class="col-12 pt-3 ps-2 d-flex justify-content-around text-light">
+              <!-- Nav 1 -->
+              <div class="d-flex flex-column">
+                <p class="text-gray-light">Ważne linki</p>
+                <a href="#" class="text-gray-dark text-decoration-none">Polityka Prywatności</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Polityka cookies</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Ustawienia cookies</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Cennik</a>
+              </div>
+              <!-- Nav 2 -->
+              <div class="d-flex flex-column">
+                <p class="text-gray-light">Odkrywaj Dalej</p>
+                <a href="#" class="text-gray-dark text-decoration-none">Blog</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Projekty</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Oferta</a>
+                <a href="#" class="text-gray-dark text-decoration-none">Współpraca</a>
+              </div>
+          </div>
+          <div class="col-12 mt-5 text-center">
+            <div class="fs-4 text-gray-light mb-2">Znajdź mnie na...</div>
+            <a href="#" class="icon-facebook-circled text-light text-decoration-none social-icon"></a>
+            <a href="#" class="icon-instagram-circled text-light text-decoration-none social-icon"></a>
+            <a href="#" class="icon-pinterest-circled text-light text-decoration-none social-icon"></a>
+            <a href="#" class="icon-linkedin-circled text-light text-decoration-none social-icon"></a>
+            <a href="#" class="icon-github-circled text-light text-decoration-none social-icon"></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-6 ms-auto">
+        <div class="text-white display-5 fw-bolder">Najczęściej zadawane <span class="text-main">pytania</span></div>
+        <div class="accordion mt-3" id="accordionExample">
+          <div class="accordion-item bg-transparent text-light">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Jak długo trwa realizacja?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2 bg-transparent text-light">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Ile kosztują moje usługi?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2 bg-transparent text-light">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Czy otrzymam kilka propozycji wyglądu finalnego produktu?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2 bg-transparent text-light">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Czy moje produkty są responsywne?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-12 border-top py-2 mt-3 text-center text-muted">
+        RSITES 2024 ALL RIGHTS RESERVED
+      </div>
+    </div>
+
+
+  </footer>
+
+  <!-- OFFCANVAS - BLOG -->
+  <div class="offcanvas  offcanvas-end bg-black-gradient-2 insetShadow" tabindex="-1" id="offcanvas-blog" aria-labelledby="offcanvas-blog-label">
+    <div class="offcanvas-header">
+      <h5 id="offcanvas-blog-label" class="fs-5 fw-bold text-light"><span class="text-main">Ostatnie</span> posty z mojego bloga</h5>
+      <button type="button" class="btn-close text-reset bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <div class="w-100 px-2 py-3 border-bottom border-secondary">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <img src="images/image0_0.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <figure>
+                <blockquote class="blockquote">
+                  <p class="text-light">Czym jest Wordpress?</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 px-2 py-3 border-bottom  border-secondary">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <img src="images/image1_0 (1).jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <figure>
+                <blockquote class="blockquote">
+                  <p class="text-light">Czym jest Wordpress?</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="w-100 px-2 py-3 border-bottom  border-secondary">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <img src="images/image1_0.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <figure>
+                <blockquote class="blockquote">
+                  <p class="text-light">Czym jest Wordpress?</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
