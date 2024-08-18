@@ -53,6 +53,12 @@
       "css": "instagram-circled",
       "code": 61534,
       "src": "mfglabs"
+    },
+    {
+      "uid": "5211af474d3a9848f67f945e2ccaf143",
+      "css": "cancel",
+      "code": 59394,
+      "src": "fontawesome"
     }
   ]
 }

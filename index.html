@@ -7,11 +7,12 @@
   <meta name="author" content="Mateusz Rak">
   <meta name="keywords" content="TAG1, TAG2, TAG3">
   <meta name="description" content="OPIS STRONY">
-  <title>Document</title>
+  <title>RSITES - Frontend Web Development</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fontello.css">
-
   <link rel="stylesheet" href="css/main.css">
+  <!-- GFONT -->
+
 </head>
 
 <body class="anim-showSlow">
@@ -37,11 +38,11 @@
             <a class="nav-link active" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-blog" aria-controls="offcanvas-blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Oferta</a>
+            <a class="nav-link" href="#portfolio">Projekty</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Projekty
+              Oferta
             </a>
             <ul class="dropdown-menu dropdown-menu-dark bg-black">
               <li><a class="dropdown-item px-0 px-md-3" href="#">Strony Internetowe</a></li>
@@ -60,22 +61,21 @@
 
 
   <!-- HEADER ABOUT US 1/3 -->
-  <header class="container-fluid overflow-hidden img-box img-box-scroll" style="background-image: url(images/header.jpg); background-position: 0 30%;">
+  <header class="container-fluid overflow-hidden img-box img-box-scroll" style="background-image: url(images/header.jpg); ">
 
 
     <div class="row py-5 bg-black-transparent insetShadow">
 
-      <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-7 ps-4 py-5 mb-5">
+      <article class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-7 ps-4 py-5 mb-5">
 
         <h1 class="w-100">
           <div class="text-white display-3 fw-bolder">Chcesz się wyróżnić w <span class="text-main">internecie ?</span> </div>
 
           <p class="fs-5 mt-3 mt-md-0 text-secondary fw-light-bold"> 
-            Trafiłeś w idealne miejsce! Zajmuje się designem i tworzeniem stron internetowych oraz stopek do wiadomości
-            email od A do Z
+            Trafiłeś w idealne miejsce! Zajmuje się projektowaniem i tworzeniem stron internetowych, reklam w GoogleAds oraz szablonów wiadomości e-mail w formacie HTML
           </p>
         </h1> 
-      </div>
+      </article>
 
     </div>
 
@@ -86,7 +86,7 @@
     <div class="row justify-content-center">
 
       <div class="col-12 col-sm-12 col-md-4 col-lg-5 px-0 px-md-3 position-relative">
-        <img src="images/image1_0 (1).jpg" alt="" class="img-fluid rotated-img-0">
+        <img src="images/image1_0 (1).jpg" alt="" class="img-fluid rotated-img-0" id="flyingPhoto">
       </div>
 
       <article class="col-12 col-md-8 col-lg-7 px-4 pt-4 mt-3 mt-md-0">
@@ -101,7 +101,7 @@
   </article>
 
   <!-- LAST WORK -->
-  <section class="container-fluid mt-5 py-5 position-relative">
+  <section class="container-fluid mt-5 py-5 position-relative" id="portfolio">
 
     <div class="absolut-block insetShadow bg-gradient bg-light z-0" style="transform: rotate(2deg);"></div>
 
@@ -121,34 +121,63 @@
       </div>
       <!-- PREVIEW CAROUSEL-->
       <div class="col-md-5 mt-5 mt-md-0">
-        <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="portfolio-carousel" class="carousel slide carousel-dark" >
           <div class="carousel-inner">
 
             <div class="carousel-item active">
-              <div class="w-100 d-flex justify-content-center">
+
+              <div class="w-100 d-flex justify-content-center position-relative z-0">
                 <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
               </div>
+
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex justify-content-center z-1">
+                <div class="img-box carousel-item-description text-light">
+                  <div class="fw-bolder border-bottom">RSITES</div>
+                  <p class="text-gray-light">Prosta i intuicyjna strona typu OnePage mojej agencji.</p>
+                  <a href="#" class="btn text-main ">Przejdź do strony</a>
+                </div>
+              </div>
+
             </div>
 
             <div class="carousel-item">
+
               <div class="w-100 d-flex justify-content-center">
                 <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
               </div>
+
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex justify-content-center z-1">
+                <div class="img-box carousel-item-description text-light">
+                  <div class="fw-bolder border-bottom">RSITES</div>
+                  <p class="text-gray-light">Prosta i intuicyjna strona typu OnePage mojej agencji.</p>
+                  <a href="#" class="btn text-main ">Przejdź do strony</a>
+                </div>
+              </div>
+
             </div>
 
             <div class="carousel-item">
+
               <div class="w-100 d-flex justify-content-center">
                 <div class="img-box shadow" style="background-image: url(images/Bez\ tytułu.jpg);"></div>
+              </div>
+
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex justify-content-center z-1">
+                <div class="img-box carousel-item-description text-light">
+                  <div class="fw-bolder border-bottom">RSITES</div>
+                  <p class="text-gray-light">Prosta i intuicyjna strona typu OnePage mojej agencji.</p>
+                 <a href="#" class="btn text-main ">Przejdź do strony</a>
+                </div>
               </div>
             </div>
 
          
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -249,11 +278,12 @@
       <!-- TITLE -->
       <div class="col-md-7 col-lg-6 col-xl-5 mb-4 mb-md-0">
         <div>
-          <h6 class="text-white display-3 fw-bolder">Masz więcej <span class="text-main">pytań ?</span></h6>
+          <h6 class="text-white display-3 fw-bolder">Masz więcej <span class="text-main">pytań ?</span>
           <p class="text-secondary fw-light-bold fs-5 mt-3">
             Skontaktuj się ze mną poprzez formularz kontaktowy a odpowiem ci najszybciej jak tylko będe mógł.
              Jeżeli chcesz abym do ciebie zadzwonił podaj w formularzu swój numer telefonu
           </p>
+          </h6>
         </div>
         <div class="mt-4">
           <span class="text-white display-3 fw-bolder mt-5">Inne formy <span class="text-main">kontaktu</span></span>
@@ -319,7 +349,7 @@
               <div class="d-flex flex-column">
                 <p class="text-gray-light">Ważne linki</p>
                 <a href="#" class="text-gray-dark text-decoration-none">Polityka Prywatności</a>
-                <a href="#" class="text-gray-dark text-decoration-none">Polityka cookies</a>
+                <a href="cookies.html" class="text-gray-dark text-decoration-none">Polityka cookies</a>
                 <a href="#" class="text-gray-dark text-decoration-none">Ustawienia cookies</a>
                 <a href="#" class="text-gray-dark text-decoration-none">Cennik</a>
               </div>
@@ -347,11 +377,11 @@
         <div class="text-white display-5 fw-bolder">Najczęściej zadawane <span class="text-main">pytania</span></div>
         <div class="accordion mt-3" id="accordionExample">
           <div class="accordion-item bg-transparent text-light">
-            <h2 class="accordion-header" id="headingOne">
+            <p class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Jak długo trwa realizacja?
               </button>
-            </h2>
+            </p>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -360,11 +390,11 @@
           </div>
 
           <div class="accordion-item mt-2 bg-transparent text-light">
-            <h2 class="accordion-header" id="headingTwo">
+            <p class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Ile kosztują moje usługi?
               </button>
-            </h2>
+            </p>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -373,11 +403,11 @@
           </div>
 
           <div class="accordion-item mt-2 bg-transparent text-light">
-            <h2 class="accordion-header" id="headingThree">
+            <p class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Czy otrzymam kilka propozycji wyglądu finalnego produktu?
               </button>
-            </h2>
+            </p>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -386,11 +416,11 @@
           </div>
 
           <div class="accordion-item mt-2 bg-transparent text-light">
-            <h2 class="accordion-header" id="headingFour">
+            <p class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 Czy moje produkty są responsywne?
               </button>
-            </h2>
+            </p>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
@@ -413,72 +443,78 @@
 
   <!-- OFFCANVAS - BLOG -->
   <div class="offcanvas  offcanvas-end bg-black-gradient-2 insetShadow" tabindex="-1" id="offcanvas-blog" aria-labelledby="offcanvas-blog-label">
-    <div class="offcanvas-header">
-      <h5 id="offcanvas-blog-label" class="fs-5 fw-bold text-light"><span class="text-main">Ostatnie</span> posty z mojego bloga</h5>
-      <button type="button" class="btn-close text-reset bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="offcanvas-header py-1">
+      <h5 id="offcanvas-blog-label" class="fs-5 mt-4 fw-bold text-light"><span class="text-main">Ostatnie</span> posty z mojego bloga</h5>
+      <button type="button" class="icon-cancel btn pt-0 text-gray-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
+
     <div class="offcanvas-body">
 
-      <div class="w-100 px-2 py-3 border-bottom border-secondary">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-4">
-              <img src="images/image0_0.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-8">
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="text-light">Czym jest Wordpress?</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
-                </figcaption>
-              </figure>
+      <div class="w-100" id="blog-posts-container">
+
+        <div class="w-100 p-2 border-bottom border-secondary">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img src="images/image0_0.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-8">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="text-light">Czym jest Wordpress?</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="w-100 px-2 py-3 border-bottom  border-secondary">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-4">
-              <img src="images/image1_0 (1).jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-8">
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="text-light">Czym jest Wordpress?</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="w-100 px-2 py-3 border-bottom  border-secondary">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-4">
-              <img src="images/image1_0.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-8">
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="text-light">Czym jest Wordpress?</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
-                </figcaption>
-              </figure>
+  
+        <div class="w-100 p-2 border-bottom  border-secondary">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img src="images/image1_0 (1).jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-8">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="text-light">Czym jest Wordpress?</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
+  
+        <div class="w-100 p-2 border-bottom  border-secondary">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img src="images/image1_0.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-8">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="text-light">Czym jest Wordpress?</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Poznaj najpopularniejszego CMS na świecie który na codzień ułatwi twoje zarządzanie stroną! <a href="#" class="text-gray-dark">Czytaj dalej</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+      
+      <button type="button" class="btn text-gray-dark w-100">Wczytaj więcej...</button>
 
 
 

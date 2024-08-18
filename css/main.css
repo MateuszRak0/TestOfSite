@@ -1,8 +1,12 @@
 /* MAIN */
-body {
-    background-color: #000000;
+body,html{
     overflow-x: hidden;
     max-width: 100% !important;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+body {
+    background-color: #000000;
 }
 
 
@@ -35,6 +39,25 @@ body {
 .carousel-item .img-box {
     width: 320px;
     height: 480px;
+}
+
+.carousel-item-description{
+    opacity: 0;
+    box-sizing: border-box;
+    padding:5% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+    background-color: rgba(3, 3, 3, 0.92);
+}
+
+.carousel-item-description:hover{
+    transform: scale(1);
+    opacity: 1;
 }
 
 /* TESTIMONIALS */
@@ -138,6 +161,12 @@ a.text-gray-dark:hover {
     transform: translateX(-6px);
 }
 
+button.btn.text-gray-dark:hover {
+    color: #10B89B !important;
+}
+
+
+
 .bg-black-gradient {
     background: linear-gradient(180deg, rgb(12, 12, 12) 0%, #0F0F0F 27.17%, #0F0F0F 30.67%, #000000 51.17%);
 }
@@ -172,6 +201,9 @@ button.btn.bg-main:hover{
     color: #10B89B !important;
 }
 
+a.text-main:hover{
+    color: #ffffff !important;
+}
 
 .dropshadow-main::after {
     content: "aa ";
@@ -223,6 +255,7 @@ button.btn.bg-main:hover{
 
 .img-box-scroll{
     background-attachment: fixed;
+    background-position: 0 30%;
 }
 
 .fw-light-bold {
@@ -279,9 +312,16 @@ button.btn.bg-main:hover{
 
 /* RESPONSIVES */
 @media only screen and (max-width: 768px) {
-
     .rotated-img-0{
         transform: rotate(0deg);
+    }
+
+    .img-box-scroll{
+        background-position: center 30% !important;
+    }
+
+    .accordion-button:hover{
+        transform: translateX(0px) !important;
     }
 }
 
